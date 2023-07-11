@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "data-transformers "
+version = "0.1"
+description = ""
+authors = ["Marcos Caputo <caputo.marcos@gmail.com>"]
+readme = "README.md"
+packages = [{include = "data_transformers"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
